@@ -4,9 +4,9 @@
   "builds": [{ "src": "/*.js", "use": "@now/node" }],
   "routes": [{ "src": "/", "dest": "/server.js" }],
   "env": {
-    "TWITTER_CONSUMER_KEY": "@secret-TWITTER_CONSUMER_KEY",
-    "TWITTER_CONSUMER_SECRET": "@secret-TWITTER_CONSUMER_SECRET",
-    "TWITTER_ACCESS_TOKEN_KEY": "@secret-TWITTER_ACCESS_TOKEN_KEY",
-    "TWITTER_ACCESS_TOKEN_SECRET": "@secret-TWITTER_ACCESS_TOKEN_SECRET"
+    "TWITTER_CONSUMER_KEY": "@secret-twitter_consumer_key",
+    "TWITTER_CONSUMER_SECRET": "@secret-twitter_consumer_secret",
+    "TWITTER_ACCESS_TOKEN_KEY": "@secret-twitter_access_token_key",
+    "TWITTER_ACCESS_TOKEN_SECRET": "@secret-twitter_access_token_secre"
   }
 }
