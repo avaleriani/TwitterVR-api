@@ -32,7 +32,9 @@ app.use(function(req, res, next) {
 app.get("/v1/get", (req, res) => {
   fetchTweets(req, res);
 });
-
+app.get("/v1/", (req, res) => {
+  res.end({ Hello: "Welcome to the api" });
+});
 
 app.listen(port);
 console.log("Node server running on port " + port);
