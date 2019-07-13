@@ -1,8 +1,7 @@
 {
   "version": 2,
   "name": "twitter-vr-api",
-  "builds": [{ "src": "/*.js", "use": "@now/node" }],
-  "routes": [{ "src": "/", "dest": "server.js" }],
+  "builds": [{ "src": "/server.js", "use": "@now/node-server" }],
   "env": {
     "TWITTER_CONSUMER_KEY": "@secret-twitter_consumer_key",
     "TWITTER_CONSUMER_SECRET": "@secret-twitter_consumer_secret",
