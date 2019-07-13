@@ -2,7 +2,7 @@ require("dotenv").config();
 const Twitter = require("twit");
 const express = require("express");
 const app = express();
-const port = 3001;
+const port = 80;
 const cors = require("cors");
 
 const client = new Twitter({
